@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [fork-version](https://github.com/eglavin/fork-version) for commit guidelines.
 
+## 3.0.4 (2025-04-26)
+
+### Other Changes
+
+- set permissions inside bump-deps job
+  ([9c24756](https://github.com/hugojosefson/scratchpad/commit/9c2475602d56f3e73c0cb14cc9ded4f318ac6b7f))
+
 ## 3.0.3 (2025-04-26)
 
 ### Other Changes
