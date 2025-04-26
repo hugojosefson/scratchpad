@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [fork-version](https://github.com/eglavin/fork-version) for commit guidelines.
 
+## 3.0.1 (2025-04-26)
+
+### Other Changes
+
+- run bump-deps action on every main push
+  ([c9abfc2](https://github.com/hugojosefson/scratchpad/commit/c9abfc2086705e5bbf4a9566a154e62bdd6e3294))
+
 ## 3.0.0 (2025-04-26)
 
 ### ⚠ BREAKING CHANGES
