@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [fork-version](https://github.com/eglavin/fork-version) for commit guidelines.
 
+## 3.0.5 (2025-04-26)
+
+### Other Changes
+
+- format yaml
+  ([66b65a9](https://github.com/hugojosefson/scratchpad/commit/66b65a97b6c646de2c6b68e4c4a693261e2dc1b9))
+
 ## 3.0.4 (2025-04-26)
 
 ### Other Changes
