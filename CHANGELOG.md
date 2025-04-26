@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [fork-version](https://github.com/eglavin/fork-version) for commit guidelines.
 
+## 3.0.3 (2025-04-26)
+
+### Other Changes
+
+- setup-deno@v2 before molt-action
+  ([5f8ea33](https://github.com/hugojosefson/scratchpad/commit/5f8ea33aba163b75c93755d786bd086d2b903e98))
+
 ## 3.0.2 (2025-04-26)
 
 ### Other Changes
