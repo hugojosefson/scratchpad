@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [fork-version](https://github.com/eglavin/fork-version) for commit guidelines.
 
+## 3.0.6 (2025-04-26)
+
+### Other Changes
+
+- bump regex-merge from ^2.0.0 to ^3.0.0
+  ([930659a](https://github.com/hugojosefson/scratchpad/commit/930659a9011a6d75fd6aa60c2c36ee2c0b1f3d25))
+
 ## 3.0.5 (2025-04-26)
 
 ### Other Changes
