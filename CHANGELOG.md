@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [fork-version](https://github.com/eglavin/fork-version) for commit guidelines.
 
+## 3.0.2 (2025-04-26)
+
+### Other Changes
+
+- downgrade deps
+  ([42223d4](https://github.com/hugojosefson/scratchpad/commit/42223d4b34513a23ec77a2434d44ce8aa8752b77))
+
 ## 3.0.1 (2025-04-26)
 
 ### Other Changes
