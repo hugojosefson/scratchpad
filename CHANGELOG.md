@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file. See
 [fork-version](https://github.com/eglavin/fork-version) for commit guidelines.
 
+## 3.0.0 (2025-04-26)
+
+### ⚠ BREAKING CHANGES
+
+- new test project
+
+### Features
+
+- new test project
+  ([b98109e](https://github.com/hugojosefson/scratchpad/commit/b98109e55e69c673388cbfce26cecc3a1cf38cb1))
+
 ## 2.1.7 (2025-04-26)
 
 ## 2.1.6 (2025-04-26)
