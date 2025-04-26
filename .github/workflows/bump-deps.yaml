@@ -8,13 +8,12 @@ on:
     branches:
       - "main"
 
-permissions:
-  contents: write
-  pull-requests: write
-
 jobs:
   bump-deps:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@v4
       - uses: hasundue/molt-action@v1
