@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [fork-version](https://github.com/eglavin/fork-version) for commit guidelines.
 
+## 3.0.12 (2025-05-02)
+
+### Other Changes
+
+- remove unused terraform dependabot
+  ([a0cfaa1](https://github.com/hugojosefson/scratchpad/commit/a0cfaa19e4d07750264684a4965eefeb6ad7ea85))
+
 ## 3.0.11 (2025-05-02)
 
 ### Other Changes
