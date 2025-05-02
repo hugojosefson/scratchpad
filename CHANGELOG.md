@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [fork-version](https://github.com/eglavin/fork-version) for commit guidelines.
 
+## 3.0.7 (2025-05-02)
+
+### Other Changes
+
+- update deno tasks
+  ([3ca8328](https://github.com/hugojosefson/scratchpad/commit/3ca83286abaf196ec5c4a7256ce8814ea90ad831))
+
 ## 3.0.6 (2025-04-26)
 
 ### Other Changes
