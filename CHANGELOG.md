@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [fork-version](https://github.com/eglavin/fork-version) for commit guidelines.
 
+## 3.0.11 (2025-05-02)
+
+### Other Changes
+
+- Dockerfile
+  ([4732b6c](https://github.com/hugojosefson/scratchpad/commit/4732b6c27889a5772a9cbc01de1ce54380ff20b7))
+
 ## 3.0.10 (2025-05-02)
 
 ### Other Changes
