@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [fork-version](https://github.com/eglavin/fork-version) for commit guidelines.
 
+## 3.0.9 (2025-05-02)
+
+### Other Changes
+
+- dependabot
+  ([e874e99](https://github.com/hugojosefson/scratchpad/commit/e874e99604da0b6504ebc801469a43e12584a776))
+
 ## 3.0.8 (2025-05-02)
 
 ### Other Changes
