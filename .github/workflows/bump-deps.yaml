@@ -11,9 +11,6 @@ on:
 jobs:
   bump-deps:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pull-requests: write
     steps:
       - uses: actions/checkout@v4
       - uses: hasundue/molt-action@v1
