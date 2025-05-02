@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [fork-version](https://github.com/eglavin/fork-version) for commit guidelines.
 
+## 3.0.10 (2025-05-02)
+
+### Other Changes
+
+- fix dependabot syntax errors
+  ([661b951](https://github.com/hugojosefson/scratchpad/commit/661b9519634072f72e06dee2971b855a9cf82da7))
+
 ## 3.0.9 (2025-05-02)
 
 ### Other Changes
