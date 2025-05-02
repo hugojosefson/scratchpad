@@ -15,7 +15,6 @@ updates:
       - "hugojosefson"
     commit-message:
       prefix: "chore"
-    versioning-strategy: increase
 
   # Maintain dependencies for Docker
   - package-ecosystem: "docker"
@@ -68,7 +67,6 @@ updates:
       - "hugojosefson"
     commit-message:
       prefix: "chore"
-    versioning-strategy: increase
 
   # Maintain dependencies for Maven (Java/Kotlin)
   - package-ecosystem: "maven"
@@ -82,7 +80,6 @@ updates:
       - "hugojosefson"
     commit-message:
       prefix: "chore"
-    versioning-strategy: increase
 
   # Maintain dependencies for npm (Node.js/JavaScript)
   - package-ecosystem: "npm"
@@ -127,4 +124,3 @@ updates:
       - "hugojosefson"
     commit-message:
       prefix: "chore"
-    versioning-strategy: increase
