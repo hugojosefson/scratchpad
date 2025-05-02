@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [fork-version](https://github.com/eglavin/fork-version) for commit guidelines.
 
+## 3.0.8 (2025-05-02)
+
+### Other Changes
+
+- **bump-deps:** remove explicit permissions
+  ([21cbe31](https://github.com/hugojosefson/scratchpad/commit/21cbe3123fb8ed23c44c0dc45036f66035e8231e))
+
 ## 3.0.7 (2025-05-02)
 
 ### Other Changes
