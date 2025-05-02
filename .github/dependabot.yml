@@ -28,16 +28,3 @@ updates:
       - "hugojosefson"
     commit-message:
       prefix: "chore:"
-
-  # Maintain dependencies for Terraform
-  - package-ecosystem: "terraform"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-      time: "04:00"
-      timezone: "Europe/Stockholm"
-    open-pull-requests-limit: 20
-    assignees:
-      - "hugojosefson"
-    commit-message:
-      prefix: "chore:"
