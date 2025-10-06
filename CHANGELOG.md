@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [fork-version](https://github.com/eglavin/fork-version) for commit guidelines.
 
+## 3.0.16 (2025-10-06)
+
+### Other Changes
+
+- bump denoland/deno from alpine-2.4.1 to alpine-2.5.3
+  ([a6d10f3](https://github.com/hugojosefson/scratchpad/commit/a6d10f347fab0d2a00311276d983f4368da97b00))
+
 ## 3.0.15 (2025-07-18)
 
 ### Other Changes
