@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [fork-version](https://github.com/eglavin/fork-version) for commit guidelines.
 
+## 3.0.17 (2025-10-06)
+
+### Other Changes
+
+- bump actions/checkout from 4 to 5
+  ([76719bf](https://github.com/hugojosefson/scratchpad/commit/76719bfef32848787bd0a7f3aa1d149a604ec29e))
+
 ## 3.0.16 (2025-10-06)
 
 ### Other Changes
