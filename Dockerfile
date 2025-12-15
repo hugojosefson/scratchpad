@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM denoland/deno:alpine-2.5.6
+FROM denoland/deno:alpine-2.6.0
 
 WORKDIR /app
 USER deno
