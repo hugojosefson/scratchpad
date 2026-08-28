@@ -4,7 +4,8 @@
   "description": "Testing project setup",
   "license": "MIT",
   "exports": {
-    "./hello": "./src/hello.ts"
+    "./hello": "./src/hello.ts",
+    ".": "./src/lib/mod.ts"
   },
   "fmt": {
     "useBraces": "always",
@@ -29,7 +30,9 @@
     "check": {
       "description": "Run project checks.",
       "dependencies": [
-        "format"
+        "format",
+        "test",
+        "publish-check"
       ]
     },
     "default": {
@@ -41,6 +44,14 @@
       "dependencies": [
         "check"
       ]
+    },
+    "publish-check": {
+      "description": "Check JSR publication.",
+      "command": "deno publish --dry-run --check=all"
+    },
+    "test": {
+      "description": "Run tests.",
+      "command": "deno test --parallel --trace-leaks"
     }
   }
 }
