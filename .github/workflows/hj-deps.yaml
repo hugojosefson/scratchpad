@@ -44,11 +44,14 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit --message "chore: update dependencies"
           if [ -n "${remote_branch}" ]; then
-            git push --force-with-lease="refs/heads/${branch}:${remote_branch}"               origin "${branch}:refs/heads/${branch}"
+            git push --force-with-lease="refs/heads/${branch}:${remote_branch}" \
+              origin "${branch}:refs/heads/${branch}"
           else
             git push origin "${branch}:refs/heads/${branch}"
           fi
           open_pr_count="$(gh pr list --head "${branch}" --state open --json url --jq length)"
           if [ "${open_pr_count}" = "0" ]; then
-            gh pr create --base "${base}" --head "${branch}"               --title "chore: update dependencies"               --body "Updates all Deno dependencies to their latest versions."
+            gh pr create --base "${base}" --head "${branch}" \
+              --title "chore: update dependencies" \
+              --body "Updates all Deno dependencies to their latest versions."
           fi
