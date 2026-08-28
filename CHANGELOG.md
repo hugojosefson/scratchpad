@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file. See
 [fork-version](https://github.com/eglavin/fork-version) for commit guidelines.
 
+## 3.0.19 (2026-08-29)
+
+### Other Changes
+
+- add JSR OIDC publishing
+
 ## 3.0.18 (2025-11-03)
 
 ### Other Changes
