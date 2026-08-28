@@ -31,6 +31,7 @@
       "description": "Run project checks.",
       "dependencies": [
         "format",
+        "test",
         "publish-check"
       ]
     },
@@ -47,6 +48,10 @@
     "publish-check": {
       "description": "Check JSR publication.",
       "command": "deno publish --dry-run --check=all"
+    },
+    "test": {
+      "description": "Run tests.",
+      "command": "deno test --parallel --trace-leaks"
     }
   }
 }
