@@ -22,7 +22,8 @@ if gh api --method POST "$repo/git/refs" -f ref="refs/tags/hj-live-$GITHUB_RUN_I
   echo 'Nonrelease tag creation unexpectedly succeeded'; exit 1
 fi
 jq . create.json
-jq -e '.status == "422" and (.message | contains("Repository rule violations"))' create.json
+jq -e '.status == "422" and .message == "Reference update failed"' create.json
+gh api "$repo/git/matching-refs/tags/hj-live-$GITHUB_RUN_ID" --jq 'length == 0' | grep -qx true
 # This deliberately demonstrates the documented boundary: GitHub's wildcard
 # accepts a leading zero. Exact SemVer is enforced by hj, not this ruleset.
 invalid="0999999.0.$GITHUB_RUN_ID"
