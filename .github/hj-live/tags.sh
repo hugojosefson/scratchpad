@@ -10,6 +10,7 @@ gh api --method POST "$repo/git/refs" -f ref="refs/tags/$tag" -f sha="$sha" > /d
 if gh api --method PATCH "$repo/git/refs/tags/$tag" -f sha="$other" -F force=true > update.json 2> update.err; then
   echo 'Tag update unexpectedly succeeded'; exit 1
 fi
+jq . update.json
 jq -e '.status == "422" and (.message | contains("Repository rule violations"))' update.json
 [[ $(gh api "$repo/git/ref/tags/$tag" --jq .object.sha) == "$sha" ]]
 if gh api --method DELETE "$repo/git/refs/tags/$tag" > delete.json 2> delete.err; then
