@@ -36,7 +36,7 @@ mutation='mutation($id:ID!,$sha:GitObjectID!){enablePullRequestAutoMerge(input:{
 gh api graphql -f query="$mutation" -f id="$id" -f sha="$head" > enabled.json
 gh api graphql -f query="$query" -f id="$id" > observed.json
 [[ $(jq -r .data.node.autoMergeRequest.mergeMethod observed.json) == REBASE ]]
-[[ $(jq -r .data.node.autoMergeRequest.enabledBy.login observed.json) == 'github-actions[bot]' ]]
+[[ $(jq -r .data.node.autoMergeRequest.enabledBy.login observed.json) == 'github-actions' ]]
 for context in check hj-release-commit-validation; do
   check_id=$(jq -r .id "$context.json")
   gh api --method PATCH "repos/$repo/check-runs/$check_id" -f status=completed -f conclusion=success >/dev/null
