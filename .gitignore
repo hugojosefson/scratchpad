@@ -5,3 +5,6 @@
 .*.swp
 /coverage/
 
+
+# npm publication fixture
+/.hj/npm/

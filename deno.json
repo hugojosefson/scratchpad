@@ -1,6 +1,6 @@
 {
   "name": "@hugojosefson/scratchpad",
-  "version": "3.0.19",
+  "version": "3.0.20-npm.0",
   "description": "Testing project setup",
   "license": "MIT",
   "exports": {
@@ -52,6 +52,10 @@
     "test": {
       "description": "Run tests.",
       "command": "deno test --parallel --trace-leaks"
+    },
+    "npm-build": {
+      "description": "Build npm publication fixture",
+      "command": "deno run --allow-read --allow-write=.hj/npm --allow-env=HJ_RELEASE_SHA,PATH --allow-run=git,deno scripts/build-npm.ts"
     }
   }
 }
