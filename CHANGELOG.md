@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [fork-version](https://github.com/eglavin/fork-version) for commit guidelines.
 
+## 3.0.22
+
+### Other
+
+- update dependencies
+  ([ccc4a4d](https://github.com/hugojosefson/scratchpad/commit/ccc4a4d67292f69dee6e83db017704b5d660384d))
+
 ## 3.0.21
 
 ### Fixes
