@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file. See
 [fork-version](https://github.com/eglavin/fork-version) for commit guidelines.
 
+## 3.0.25
+
+### Other
+
+#### github-ci
+
+- enable feature
+  ([8efc640](https://github.com/hugojosefson/scratchpad/commit/8efc6401652100221f021d01757e39679be801aa))
+
+#### github-release-publish-github
+
+- enable feature
+  ([78075d4](https://github.com/hugojosefson/scratchpad/commit/78075d440ec6301d08affdae9efffcb87d1b13c6))
+
+#### github-release-publish-jsr
+
+- enable feature
+  ([98cda82](https://github.com/hugojosefson/scratchpad/commit/98cda8206fd3a7a7127fbd71a8c813202869008c))
+
+#### github-release-publish-tag
+
+- enable feature
+  ([e882b78](https://github.com/hugojosefson/scratchpad/commit/e882b780e8739356fcd6acb1e3d9f31f2e820d30))
+
 ## 3.0.24
 
 ### Other
