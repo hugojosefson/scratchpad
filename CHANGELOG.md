@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file. See
 [fork-version](https://github.com/eglavin/fork-version) for commit guidelines.
 
+## 3.0.23
+
+### Fixes
+
+#### docker
+
+- use Deno 2.9.7 and cached dependencies
+  ([3845aec](https://github.com/hugojosefson/scratchpad/commit/3845aecd52e1465f09ee0f58fd3a27515c298128))
+
 ## 3.0.22
 
 ### Other
