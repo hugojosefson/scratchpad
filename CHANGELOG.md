@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file. See
 [fork-version](https://github.com/eglavin/fork-version) for commit guidelines.
 
+## 3.0.21
+
+### Fixes
+
+#### package
+
+- publish only public package files
+  ([d274f3e](https://github.com/hugojosefson/scratchpad/commit/d274f3e364d4bbc714f45b8532b36ba6b38c3cb1))
+
 ## 3.0.20
 
 ### Other
