@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "files": {
+    "readme/install.sh": "#!/usr/bin/env bash\ndeno add jsr:@hugojosefson/scratchpad\n",
+    "readme/example-usage.ts": "import { placeholder } from \"../src/lib/mod.ts\";\n\nconst result = placeholder();\nconsole.dir({ result });\n"
+  },
+  "exampleExport": true
+}
