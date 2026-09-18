@@ -6,7 +6,7 @@ the `main` branch to make sense.
 <!-- deno-fmt-ignore-start -->
 <!-- hj:readme jsr-package:badges 19771db7fc04a18b96f85df5e3a5429b2bbdf403218e6362568639256197b7ff -->
 
-[![JSR Version](https://jsr.io/badges/@hugojosefson/scratchpad)](https://jsr.io/@hugojosefson/scratchpad) [![JSR Score](https://jsr.io/badges/@hugojosefson/scratchpad/score)](https://jsr.io/@hugojosefson/scratchpad) <!-- /hj:readme -->
+[![JSR Version](https://jsr.io/badges/@hugojosefson/scratchpad)](https://jsr.io/@hugojosefson/scratchpad) [![JSR Score](https://jsr.io/badges/@hugojosefson/scratchpad/score)](https://jsr.io/@hugojosefson/scratchpad) <!-- /hj:readme --> <!-- hj:readme github-ci:badge 75c130d1fcdfff2419f60ca332bf9e143d59fd6f406f68332d409c328d336542 --> [![CI](https://github.com/hugojosefson/scratchpad/actions/workflows/hj-ci.yaml/badge.svg)](https://github.com/hugojosefson/scratchpad/actions/workflows/hj-ci.yaml) <!-- /hj:readme -->
 <!-- deno-fmt-ignore-end -->
 
 <!-- hj:readme readme:requirements e1f2ae9f7a1c0adc42b0ff5d2c26aaf5de63e859105fd2346557eca53f16a211 -->
