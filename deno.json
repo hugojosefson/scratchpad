@@ -72,5 +72,11 @@
       "description": "Run tests when source files change.",
       "command": "deno test --parallel --trace-leaks --watch"
     }
+  },
+  "minimumDependencyAge": {
+    "age": 1440,
+    "exclude": [
+      "jsr:@hugojosefson/cli"
+    ]
   }
 }
