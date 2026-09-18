@@ -3,6 +3,76 @@
 All notable changes to this project will be documented in this file. See
 [fork-version](https://github.com/eglavin/fork-version) for commit guidelines.
 
+## 3.0.20
+
+### Other
+
+- add temporary live GitHub validation
+  ([9ac5e3b](https://github.com/hugojosefson/scratchpad/commit/9ac5e3b0e8c6bb46fc0bd800d2e754f8b19e14d4))
+- use GraphQL bot login in live validation
+  ([796ad96](https://github.com/hugojosefson/scratchpad/commit/796ad96abdc96a7dae8f7659110d44d4fcb592d9))
+- validate live release checks
+  ([40c3d74](https://github.com/hugojosefson/scratchpad/commit/40c3d7463b08f4476b35567a0d1a7a9e4dd6a04f))
+- validate personal repository tag protection
+  ([c876573](https://github.com/hugojosefson/scratchpad/commit/c876573e8e58695ed166d30450ba31b7b1062089))
+- show tag rejection response
+  ([1aaa1af](https://github.com/hugojosefson/scratchpad/commit/1aaa1af0d66c21f9a12029ccb5b27ea9259399b2))
+- inspect nonrelease tag rejection
+  ([81e2995](https://github.com/hugojosefson/scratchpad/commit/81e2995db83512833bb7383cda5f2194f03f2c7f))
+- recognize GitHub tag creation rejection
+  ([a06cc11](https://github.com/hugojosefson/scratchpad/commit/a06cc11c55030e3edf2ef54cecea702169a5154b))
+- remove temporary live validation fixtures
+  ([94a1ee8](https://github.com/hugojosefson/scratchpad/commit/94a1ee80d990c0162a70065a2622ff7dd03c8013))
+
+#### ci
+
+- update generated checks and dependency workflow
+  ([e9c1c71](https://github.com/hugojosefson/scratchpad/commit/e9c1c718739b75f029831d62afb10f340f55b8a8))
+- set dependency age exclusion for hj
+  ([b1a5973](https://github.com/hugojosefson/scratchpad/commit/b1a5973e0db343e4b412c6d5f12af285b036f4a4))
+
+#### deno-lib
+
+- enable feature
+  ([578d8d4](https://github.com/hugojosefson/scratchpad/commit/578d8d4caefc45f4381f549613613680d86b1d76))
+
+#### github-ci
+
+- enable feature
+  ([ff93b08](https://github.com/hugojosefson/scratchpad/commit/ff93b08dd178afe8ffe4d84cd6bed3685fb37f1c))
+- enable feature
+  ([258efbe](https://github.com/hugojosefson/scratchpad/commit/258efbeb499b51f2cc31378dac02b396b1b33102))
+
+#### github-release-publish-github
+
+- enable feature
+  ([d606f99](https://github.com/hugojosefson/scratchpad/commit/d606f99b93ad2c75d4531f2f3dd2a9e90bfda35e))
+
+#### github-release-publish-jsr
+
+- enable feature
+  ([e1f33c5](https://github.com/hugojosefson/scratchpad/commit/e1f33c512dde2719d0cf86fc92edae7d72f9d1d9))
+
+#### github-release-publish-tag
+
+- enable feature
+  ([a7b87d3](https://github.com/hugojosefson/scratchpad/commit/a7b87d392759b2224cd0b5834d211cc27b73afb4))
+
+#### jsr-package
+
+- enable feature
+  ([e9d17d6](https://github.com/hugojosefson/scratchpad/commit/e9d17d6c6cd6bf328afe59d85e0f5530b0940c77))
+
+#### readme-static
+
+- enable feature
+  ([abacf37](https://github.com/hugojosefson/scratchpad/commit/abacf3702dd622ef64f10e09be9d0e8dfdbf0a4f))
+
+#### release
+
+- update generated publication workflows
+  ([8eeb191](https://github.com/hugojosefson/scratchpad/commit/8eeb1912aa8223c30881b956c4211f293b300f56))
+
 ## 3.0.19 (2026-08-29)
 
 ### Other Changes
