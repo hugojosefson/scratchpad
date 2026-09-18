@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM denoland/deno:alpine-2.5.6
+FROM denoland/deno:alpine-2.9.7
 
 WORKDIR /app
 USER deno
@@ -7,4 +7,4 @@ USER deno
 COPY . .
 RUN deno cache src/cli.ts
 
-ENTRYPOINT ["src/cli.ts"]
+ENTRYPOINT ["deno", "run", "--cached-only", "src/cli.ts"]
