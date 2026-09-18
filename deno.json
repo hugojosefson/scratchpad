@@ -31,6 +31,8 @@
       "description": "Run project checks.",
       "dependencies": [
         "format",
+        "lint",
+        "typecheck",
         "test",
         "publish-check"
       ]
@@ -47,11 +49,27 @@
     },
     "publish-check": {
       "description": "Check JSR publication.",
-      "command": "deno publish --dry-run --check=all"
+      "command": "deno publish --dry-run --allow-dirty --check=all"
     },
     "test": {
-      "description": "Run tests.",
-      "command": "deno test --parallel --trace-leaks"
+      "description": "Run tests and report fresh coverage.",
+      "command": "sh -c 'rm -rf coverage || exit $?; deno test --parallel --trace-leaks --coverage=coverage \"$@\"; test_status=$?; deno coverage coverage; report_status=$?; if test \"$test_status\" -ne 0; then exit \"$test_status\"; fi; exit \"$report_status\"' --"
+    },
+    "lint": {
+      "description": "Fix lint locally; check lint in CI.",
+      "command": "sh -c 'if test -n \"${CI:-}\"; then exec deno lint; else exec deno lint --fix; fi'"
+    },
+    "typecheck": {
+      "description": "Type-check the project.",
+      "command": "deno check"
+    },
+    "coverage": {
+      "description": "Run tests and report fresh coverage.",
+      "command": "deno task test"
+    },
+    "dev": {
+      "description": "Run tests when source files change.",
+      "command": "deno test --parallel --trace-leaks --watch"
     }
   }
 }
