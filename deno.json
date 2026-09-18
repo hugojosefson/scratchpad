@@ -78,5 +78,16 @@
     "exclude": [
       "jsr:@hugojosefson/cli"
     ]
+  },
+  "publish": {
+    "include": [
+      "deno.json",
+      "src/hello.ts",
+      "src/lib/mod.ts",
+      "readme",
+      "README.md",
+      "CHANGELOG.md",
+      "LICENSE"
+    ]
   }
 }
