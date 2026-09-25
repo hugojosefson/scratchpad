@@ -10,7 +10,8 @@
   },
   "fmt": {
     "useBraces": "always",
-    "singleBodyPosition": "nextLine"
+    "singleBodyPosition": "nextLine",
+    "exclude": ["coverage"]
   },
   "lock": false,
   "imports": {
