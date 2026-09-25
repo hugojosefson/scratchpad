@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file. See
 [fork-version](https://github.com/eglavin/fork-version) for commit guidelines.
 
+## 3.0.26
+
+### Fixes
+
+#### fmt
+
+- put coverage exclusions in Deno configuration
+  ([db4b650](https://github.com/hugojosefson/scratchpad/commit/db4b6504aaedd65b34427adaed57711a40e539cd))
+
 ## 3.0.25
 
 ### Other
